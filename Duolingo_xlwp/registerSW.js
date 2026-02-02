@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Duolingo_xlwp/sw.js', { scope: '/Duolingo_xlwp/' })})}
